@@ -5,7 +5,7 @@
 ### 학습 기록
 #### 1st week - 파이썬을 이용한 알고리즘과 자료 구조
 <li>
-<a href="https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/1st_week/2020-12-01-%5B1st%20week-day1%5D%EB%B0%B0%EC%97%B4_%EC%9E%AC%EA%B7%80_%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8_%EC%8A%A4%ED%83%9D.md">day1. 배열, 재귀, 연결리스트, 스택</a>
+<a href="https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/1st_week/2020-12-01-%5B1st%20week-day1%5D%EB%B0%B0%EC%97%B4_%EC%9E%AC%EA%B7%80_%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8_%EC%8A%A4%ED%83%9D.md">day1. 배열, 재귀, 연결리스트, 스택 (2020-12-01)</a>
 </li>
 <li>day2.</li>
 <li>day3.</li>
