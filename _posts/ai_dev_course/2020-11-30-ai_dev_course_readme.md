@@ -11,7 +11,7 @@
 <li><a href="https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/1st_week/2020-12-02-%5B1st_week-day3%5D%ED%95%B4%EC%89%AC_%EA%B7%B8%EB%A6%AC%EB%94%94_%EC%86%8C%ED%8A%B8_%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4.md">day3.해쉬_그리드_소트_문제풀이</a></li>
 <li><a href="https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/1st_week/2020-12-03-%5B1st_week-day4%5D%ED%9E%99_%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95_DFS_BFS_%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4.md">day4.힙_동적계획법_DFS_BFS_문제풀이</a></li>
 <li><a href="#">day5.</a></li>
-<li><https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/1st_week/2020-12-05-%5B1st_weekend%5D%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC_%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90.md">weekend.다익스트라 알고리즘, 우선순위 큐</a></li>
+<li><a href="https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/1st_week/2020-12-05-%5B1st_weekend%5D%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC_%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90.md">weekend.다익스트라 알고리즘, 우선순위 큐</a></li>
 
 #### 2nd week
 <li><a href="#">day1.</a></li>
