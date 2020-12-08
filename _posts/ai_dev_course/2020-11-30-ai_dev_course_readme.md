@@ -18,7 +18,7 @@
 #### 2nd week
 
 <li><a href="https://ting-kim.github.io/2020-12-07/2nd_week-day1-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98">day1.인공지능 수학 - 선형대수 (2020-12-07)</a></li>
-<li><a href="#">day2.</a></li>
+<li><a href="https://ting-kim.github.io/2020-12-08/2nd_week-day2-%EB%AF%B8%EC%A0%81%EB%B6%84">day2.인공지능 수학 - 미적분 (2020-12-08)</a></li>
 <li><a href="#">day3.</a></li>
 <li><a href="#">day4.</a></li>
 <li><a href="#">day5.</a></li>
