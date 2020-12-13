@@ -20,8 +20,8 @@
 <li><a href="https://ting-kim.github.io/2020-12-07/2nd_week-day1-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98">day1.인공지능 수학 - 선형대수 (2020-12-07)</a></li>
 <li><a href="https://ting-kim.github.io/2020-12-08/2nd_week-day2-%EB%AF%B8%EC%A0%81%EB%B6%84">day2.인공지능 수학 - 미적분 (2020-12-08)</a></li>
 <li><a href="#">day3.</a></li>
-<li><a href="#">day4.</a></li>
-<li><a href="#">day5.</a></li>
+<li><a href="https://ting-kim.github.io/2020-12-10/2nd_week-day4-%ED%99%95%EB%A5%A0%EA%B3%BC_%ED%99%95%EB%A5%A0%EB%B6%84%ED%8F%AC">day4.인공지능 수학 - 확률과 확률분포 (2020-12-10)</a></li>
+<li><a href="https://ting-kim.github.io/2020-12-13/2020-12-12-2nd_week-day5-%EC%B6%94%EC%A0%95_%EA%B2%80%EC%A0%95_%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC">day5.인공지능 수학 - 추정, 검정, 엔트로피 (2020-12-12)</a></li>
 <li><a href="#">weekend.</a></li>
 
 #### 3rd week
