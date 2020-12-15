@@ -1,6 +1,4 @@
-# 2020-12-15-[3rd_week]jupyter notebook 실행 에러
-
-노트북에서는 cmd에 'jupyter notebook' 명령어로 jupyter notebook이 실행되었는데, 데스크탑에서는 계속 
+노트북에서는 cmd에 'jupyter notebook' 명령어로 jupyter notebook이 실행되었는데, 데스크탑에서는 계속
 
 ```bash
 'jupyter'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
