@@ -1609,3 +1609,13 @@ covid_by_region.median()
     South-East Asia           3333.0
     Western Pacific           1009.5
     Name: Confirmed, dtype: float64
+
+<br>
+
+### DataFrame에서 데이터 정렬하기
+
+`.sort_values(*by*= , *axis*= , *ascending*= False)`
+
+- *by*는 정렬하고자 하는 기준 행/열을 입력한다.
+- *axis*는 0이면 행을 정렬하고, 1이면 열을 정렬한다. (일반적으로는 행을 정렬)
+- *ascending*은 말그대로 오름차순 기능이다. *False*를 주면 내림차순으로 정렬된다.
