@@ -28,7 +28,7 @@ plt.plot([1,2,-3,4,-5]) # 실제 plotting 하는 함수
 plt.show() # plt를 확인하는 명령
 ```
 
-![png](matplotlib/output_4_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_4_0.png?raw=true)
 
 ### Figsize : Figure(도면)의 크기 조절
 
@@ -39,7 +39,7 @@ plt.plot([0,1,2,3,4]) # 실제 plotting 하는 함수 # y=x
 plt.show() # plt를 확인하는 명령
 ```
 
-![png](matplotlib/output_6_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_6_0.png?raw=true)
 
 ### 2차함수 그래프 with plot()
 
@@ -50,7 +50,7 @@ plt.plot([0,1,2,3,4])
 plt.show()
 ```
 
-![png](matplotlib/output_8_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_8_0.png?raw=true)
 
 ```python
 # numpy.array를 이용해서 함수 그래프 그리기
@@ -62,7 +62,7 @@ plt.plot(x,y)
 plt.show()
 ```
 
-![png](matplotlib/output_9_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_9_0.png?raw=true)
 
 ```python
 # np.arange(a,b,c) c: 0.01 (실수 가능함)
@@ -72,7 +72,7 @@ plt.plot(x, x**2)
 plt.show()
 ```
 
-![png](matplotlib/output_10_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_10_0.png?raw=true)
 
 ```python
 # x, y축에 설명 추가하기
@@ -86,7 +86,7 @@ plt.plot(x, x**2)
 plt.show()
 ```
 
-![png](matplotlib/output_11_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_11_0.png?raw=true)
 
 ```python
 # x, y축에 범위를 설정하기
@@ -105,7 +105,7 @@ plt.plot(x, x**2)
 plt.show()
 ```
 
-![png](matplotlib/output_12_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_12_0.png?raw=true)
 
 ```python
 # x, y축에 눈금 설정하기
@@ -126,7 +126,7 @@ plt.plot(x, x**2)
 plt.show()
 ```
 
-![png](matplotlib/output_13_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_13_0.png?raw=true)
 
 ```python
 # 그래프에 title 달기
@@ -147,7 +147,7 @@ plt.plot(x, x**2)
 plt.show()
 ```
 
-![png](matplotlib/output_14_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_14_0.png?raw=true)
 
 ```python
 # 그래프에 범례 달기
@@ -169,7 +169,7 @@ plt.legend() # 범례
 plt.show()
 ```
 
-![png](matplotlib/output_15_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_15_0.png?raw=true)
 
 ## 3. Matplotlib Case Study
 
@@ -194,7 +194,7 @@ plt.show()
 # .axis(), .yticks()
 ```
 
-![png](matplotlib/output_18_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_18_0.png?raw=true)
 
 ### 산점도 (Scatter Plot)
 
@@ -207,7 +207,7 @@ plt.scatter(x,y)
 plt.show()
 ```
 
-![png](matplotlib/output_20_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_20_0.png?raw=true)
 
 ### 박스 그림 (Box Plot)
 
@@ -222,7 +222,7 @@ plt.show()
 # Extra : Plot의 title을 "Box plot of y"
 ```
 
-![png](matplotlib/output_22_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_22_0.png?raw=true)
 
 ### 막대 그래프 (Bar Plot)
 
@@ -239,7 +239,7 @@ plt.show()
 
 ```
 
-![png](matplotlib/output_24_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_24_0.png?raw=true)
 
 ### cf) Histogram
 
@@ -257,7 +257,7 @@ plt.show()
 # Extra : xticks를 올바르게 고쳐봅시다.
 ```
 
-![png](matplotlib/output_26_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_26_0.png?raw=true)
 
 ### 원형 그래프 (Pie Chart)
 
@@ -272,4 +272,4 @@ plt.pie(z, labels=[100, 200, 300, 400])
 plt.show()
 ```
 
-![png](matplotlib/output_28_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/matplotlib/output_28_0.png?raw=true)

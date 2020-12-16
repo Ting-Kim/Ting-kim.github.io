@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[3rd_week-day3]Python으로 데이터 다루기 Ⅱ - matplotlib"
+title: "[3rd_week-day3]Python으로 데이터 다루기 Ⅱ - seaborn"
 tags: [ai, matplotlib, seaborn]
 use_math: true
 comments: true
@@ -43,7 +43,7 @@ plt.hist(y, bins=x)
      array([ 0,  2,  4,  6,  8, 10, 12, 14, 16, 18, 20]),
      <BarContainer object of 10 artists>)
 
-![png](seaborn/output_5_1.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_5_1.png?raw=true)
 
 ```python
 # kdeplot
@@ -53,7 +53,7 @@ sns.kdeplot(y, shade=True)
 plt.show()
 ```
 
-![png](seaborn/output_6_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_6_0.png?raw=true)
 
 ### 카운트그림 (Count plot)
 
@@ -159,7 +159,7 @@ plt.bar(x=[False, True], height=vote_count['name'])
 plt.show()
 ```
 
-![png](seaborn/output_10_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_10_0.png?raw=true)
 
 ```python
 # sns의 countplot
@@ -169,7 +169,7 @@ sns.countplot(x=vote_df['vote'])
 plt.show()
 ```
 
-![png](seaborn/output_11_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_11_0.png?raw=true)
 
 ### 캣그림 (Cat Plot)
 
@@ -323,9 +323,9 @@ s.fig.set_size_inches(10, 6)
 plt.show() # violin plot 형태.
 ```
 
-![png](seaborn/output_14_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_14_0.png?raw=true)
 
-![png](seaborn/output_14_1.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_14_1.png?raw=true)
 
 ### 스트립그림 (Strip Plot)
 
@@ -338,7 +338,7 @@ sns.stripplot(x="WHO Region", y="Recovered", data=covid)
 plt.show()
 ```
 
-![png](seaborn/output_16_0.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_16_0.png?raw=true)
 
 ```python
 # cf) swarmplot
@@ -361,7 +361,7 @@ plt.show()
     C:\Users\Taeho Kim\AppData\Local\Programs\Python\Python38\lib\site-packages\seaborn\categorical.py:1296: UserWarning: 31.2% of the points cannot be placed; you may want to decrease the size of the markers or use stripplot.
       warnings.warn(msg, UserWarning)
 
-![png](seaborn/output_17_1.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_17_1.png?raw=true)
 
 ### 히트맵 (Heatmap)
 
@@ -628,4 +628,4 @@ sns.heatmap(covid.corr())
 
     <AxesSubplot:>
 
-![png](seaborn/output_20_1.png)
+![png](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/_posts/ai_dev_course/3rd_week/Seaborn/output_20_1.png?raw=true)

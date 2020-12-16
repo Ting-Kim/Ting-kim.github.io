@@ -28,7 +28,8 @@
 <li><a href="https://ting-kim.github.io/2020-12-14/3rd_week-day1-numpy_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8B%A4%EB%A3%A8%EA%B8%B0">day1.Python으로 데이터 다루기 I - numpy
 </a></li>
 <li><a href="https://ting-kim.github.io/2020-12-15/3rd_week-day2-pandas_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8B%A4%EB%A3%A8%EA%B8%B0">day2.Python으로 데이터 다루기 II - Pandas</a></li>
-<li><a href="#">day3.</a></li>
+<li><a href="https://ting-kim.github.io/2020-12-16/3rd_week-day3-matplotlib_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8B%A4%EB%A3%A8%EA%B8%B0">day3.[3rd_week-day3]Python으로 데이터 다루기 Ⅱ - matplotlib</a></li>
+<li><a href="https://ting-kim.github.io/2020-12-16/3rd_week-day3-seaborn_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8B%A4%EB%A3%A8%EA%B8%B0">day3.[3rd_week-day3]Python으로 데이터 다루기 Ⅱ - seaborn</a></li>
 <li><a href="#">day4.</a></li>
 <li><a href="#">day5.</a></li>
 <li><a href="#">weekend.</a></li>
