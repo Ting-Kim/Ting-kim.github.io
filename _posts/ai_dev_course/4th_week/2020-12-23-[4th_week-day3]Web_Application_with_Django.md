@@ -21,7 +21,7 @@
 
 **MTV 구성**
 
-![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/MTVPattern.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/MTVPattern.png?raw=true)
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/MTVpattern.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/MTVpattern.png?raw=true)
 (ref:https://www.google.com/url?sa=i&url=https%3A%2F%2Fcupjoo.tistory.com%2F91&psig=AOvVaw37EW2X3I9_9Ms4ZLpRSi05&ust=1608899634903000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC-sq3Q5u0CFQAAAAAdAAAAABAJ)
 
 <br>
@@ -33,11 +33,12 @@
 - <App name>/views.py 에서 요청에 대한 로직을 수행
 - return render(request, <template 파일명>, {<Template에 전달할 key>:<value> })
 - Template 태그는
-  ![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_tag.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_tag.png?raw=true)
+  ![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_tag.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_tag.PNG?raw=true)
 
 <br>
 
 ### Template
 
 - Template는 <project>/settings.py 의 TEMPLATES 에서 관리
-  ![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_parameter.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_parameter.png?raw=true)
+
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_parameter.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_parameter.PNG?raw=true)
