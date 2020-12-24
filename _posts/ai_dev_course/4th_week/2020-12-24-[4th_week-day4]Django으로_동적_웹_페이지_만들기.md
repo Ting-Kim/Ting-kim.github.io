@@ -96,7 +96,7 @@ class CoffeeForm(forms.ModelForm): # ModelForm을 상속받는 CoffeeForm 생성
     <p>이름 : {{coffee.name}}</p>
     <p>가격 : {{coffee.price}}</p>
     <hr />
-    {% endfor %}
+    {% raw %}{% endfor %}{% endraw %}
 
     <form method="POST">
       {% raw %} {% csrf_token %} {{coffee_form.as_p}} {% endraw %}
