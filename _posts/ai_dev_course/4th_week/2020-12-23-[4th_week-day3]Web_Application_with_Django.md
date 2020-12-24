@@ -28,22 +28,16 @@
 
 ### View
 
-```python
-<!--
 - <project>/urls.py 에서 url 매핑
 - <project>/settings.py - INSTALLED_APPS 에 App을 추가해주어야 project에서 App으로 인식
 - <App name>/views.py 에서 요청에 대한 로직을 수행
 - return render(request, <template 파일명>, {<Template에 전달할 key>:<value> })
--->
-<!-- Template 태그는 -->
-'{% tag %} ... {% end tag %}' 형태로 사용
-```
+- Template 태그는
+  ![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_tag.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_tag.png?raw=true)
 
 <br>
 
 ### Template
 
-```python
 - Template는 <project>/settings.py 의 TEMPLATES 에서 관리
-- Template 변수는 html에서는 '{{<변수명>}}' 으로 사용
-```
+  ![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_parameter.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/template_parameter.png?raw=true)
