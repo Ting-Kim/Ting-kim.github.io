@@ -8,7 +8,7 @@
 **flask의 app 이름은 반드시 `app.py` 여야 하는가?**
 
 - `flask run` 명령을 실행하면 FLASK_APP 변수에 담긴 파일명을 실행
-- 만약 해당 파일이 없다면 `[app.py](http://app.py)` 를 default로 찾고, 그것도 없으면 에러 발생
+- 만약 해당 파일이 없다면 `app.py` 를 default로 찾고, 그것도 없으면 에러 발생
 
 ---
 
