@@ -40,4 +40,4 @@
 ### Template
 
 - Template는 `<project>/settings.py` 의 TEMPLATES 에서 관리
-- Template 변수는 html에서는 {{<변수명>}} 으로 사용
+- Template 변수는 html에서는 `{{<변수명>}}` 으로 사용
