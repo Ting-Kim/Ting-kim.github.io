@@ -21,20 +21,24 @@
 
 **MTV 구성**
 
-![https://djangohy.github.io/assets/images/MTVpattern.png](https://t1.daumcdn.net/cfile/tistory/991AD1365B448DA702)
-
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/MTVPattern.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/MTVPattern.png?raw=true)
 (ref:https://www.google.com/url?sa=i&url=https%3A%2F%2Fcupjoo.tistory.com%2F91&psig=AOvVaw37EW2X3I9_9Ms4ZLpRSi05&ust=1608899634903000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC-sq3Q5u0CFQAAAAAdAAAAABAJ)
 
 <br>
 
 ### View
 
-```
+```python
 - <project>/urls.py 에서 url 매핑
 - <project>/settings.py - INSTALLED_APPS 에 App을 추가해주어야 project에서 App으로 인식
 - <App name>/views.py 에서 요청에 대한 로직을 수행
 - return render(request, <template 파일명>, {<Template에 전달할 key>:<value> })
-- Template 태그는 {% tag %} ... {% end tag %} 형태로 사용
+- Template 태그는
+"""
+    {% tag %}
+    ...
+    {% end tag %} 형태로 사용
+"""
 ```
 
 <br>
