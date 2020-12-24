@@ -91,7 +91,7 @@ class CoffeeForm(forms.ModelForm): # ModelForm을 상속받는 CoffeeForm 생성
   <body>
     <h1>welcome to Ting's Coffee</h1>
     <p>메뉴 : {{coffee_list}}</p>
-    {% for coffee in coffee_list %}
+    {% raw %} {% for coffee in coffee_list %} {% endraw %}
     <hr />
     <p>이름 : {{coffee.name}}</p>
     <p>가격 : {{coffee.price}}</p>
@@ -99,7 +99,7 @@ class CoffeeForm(forms.ModelForm): # ModelForm을 상속받는 CoffeeForm 생성
     {% endfor %}
 
     <form method="POST">
-      {% csrf_token %} {{coffee_form.as_p}}
+      {% raw %} {% csrf_token %} {{coffee_form.as_p}} {% endraw %}
       <button type="submit">Save</button>
     </form>
   </body>
