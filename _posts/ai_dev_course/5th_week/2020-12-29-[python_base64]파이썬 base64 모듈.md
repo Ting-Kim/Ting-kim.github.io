@@ -1,22 +1,14 @@
-# [python_base64]파이썬 base64 모듈
-
 ---
-
 layout: post
-
 title: "[python_base64]파이썬 base64 모듈"
-
 tags: [ai, python, base64, encoding]
-
 use_math: true
-
 comments: true
-
 ---
 
 ## python - base64 모듈 사용법
 
-![[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)](<[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)>)
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true)
 
 - `b = s.encode("UTF-8")`
 
@@ -109,11 +101,11 @@ def myeda(request):
 
 **결과 화면 `Complete!`**
 
-![[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)](<[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)>)
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true)
 
 ---
 
-ref)
+reference)
 
 - Base64 인코딩 및 디코딩 - [https://riptutorial.com/ko/python/example/27070/base64-인코딩-및-디코딩](https://riptutorial.com/ko/python/example/27070/base64-%EC%9D%B8%EC%BD%94%EB%94%A9-%EB%B0%8F-%EB%94%94%EC%BD%94%EB%94%A9)
 - matplotlib embed figures in auto generated html [duplicate] (StackOverFlow) - [https://stackoverflow.com/questions/48717794/matplotlib-embed-figures-in-auto-generated-html](https://stackoverflow.com/questions/48717794/matplotlib-embed-figures-in-auto-generated-html+)
