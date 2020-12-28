@@ -44,7 +44,7 @@ def myeda(request):
 
 그런데.. html 태그들이 반영이 안되고 그대로 출력이 되었다.
 
-![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_1.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_1.png?raw=true)
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_1.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_1.PNG?raw=true)
 
 ---
 
@@ -66,7 +66,7 @@ def myeda(request):
 </html>
 ```
 
-![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.png?raw=true)
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)
 
 ---
 
