@@ -16,33 +16,33 @@ comments: true
 
 ## python - base64 모듈 사용법
 
-![[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)]([https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true))
+![[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)](<[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_3.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)>)
 
 - `b = s.encode("UTF-8")`
 
-    문자열 → 바이트 변환
+  문자열 → 바이트 변환
 
 - `e = base64.b64encode(b)`
 
-    바이트 → base64 바이트 변환
+  바이트 → base64 바이트 변환
 
 - `s1 = e.decode("UTF-8")`
 
-    base64 바이트 → base64 문자열 변환
+  base64 바이트 → base64 문자열 변환
 
 - `b1 = s1.encode("UTF-8")`
 
-    base64 문자열 → base64 바이트 변환
+  base64 문자열 → base64 바이트 변환
 
 - `d = base64.b64decode(b1)`
 
-    base64 바이트 → 바이트 변환
+  base64 바이트 → 바이트 변환
 
 - `m = base64.b64decode(s)`
 
-    바이트가 아닌 문자열을 base64 인코딩 실행하여 에러 발생
+  바이트가 아닌 문자열을 base64 인코딩 실행하여 에러 발생
 
-    **에러 문구 :** **binascii.Error: Incorrect padding**
+  **에러 문구 :** **binascii.Error: Incorrect padding**
 
 <br>
 
@@ -55,9 +55,12 @@ comments: true
 ```html
 <div>
   <p>Taken from wikpedia</p>
-  <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
+  <img
+    src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
     AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
-        9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+        9TXL0Y4OHwAAAABJRU5ErkJggg=="
+    alt="Red dot"
+  />
 </div>
 ```
 
@@ -76,7 +79,7 @@ def myeda(request):
     my_base64_pngData = base64.b64encode(my_stringIOBytes.read()).decode("UTF-8")
 
     html = '<h3>header check</h3>'
-						+'<img src=\"data:image/png;base64,{}\">'.format(my_base64_pngData) 
+						+'<img src=\"data:image/png;base64,{}\">'.format(my_base64_pngData)
 						+ '<h3>tail check</h3>'
 
     context = {'head':head, 'tail':tail, 'graph1':html, 'test':'test'}
@@ -88,28 +91,25 @@ def myeda(request):
 
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>EDA project</title>
-</head>
-<body>
-<p>Hello World</p>
-{% autoescape off %}
-<p>head(5)</p>
-{{ head }}
+  </head>
+  <body>
+    <p>Hello World</p>
+    {% raw %} {% autoescape off %}
+    <p>head(5)</p>
+    {{ head }}
 
-<p>tail(5)</p>
-{{ tail }}
-
-{{ graph1 }}
-{% endautoescape %}
-</body>
+    <p>tail(5)</p>
+    {{ tail }} {{ graph1 }} {% endautoescape %} {% endraw %}
+  </body>
 </html>
 ```
 
-**결과 화면  `Complete!`**
+**결과 화면 `Complete!`**
 
-![[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)]([https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true))
+![[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)](<[https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_4.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20201229_2.PNG?raw=true)>)
 
 ---
 
