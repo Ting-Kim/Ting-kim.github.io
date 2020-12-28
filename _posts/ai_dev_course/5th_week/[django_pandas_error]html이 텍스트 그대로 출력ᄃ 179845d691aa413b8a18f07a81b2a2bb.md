@@ -1,5 +1,3 @@
-# [django_pandas_error]html이 텍스트 그대로 출력되는 문제
-
 ## 문제점
 
 `pandas` 이용해서 데이터 `csv 파일`을 불러오고, html에 표현하기 위해 dataframe 형태에 `.to_html()` 을 사용해서 html 코드를 head 변수에 담아서 템플릿에 변수로 넘겨줬다.
@@ -52,7 +50,7 @@ def myeda(request):
 
 ## 해결방안
 
-알아보니 Django에서는 기본적으로 `esacape` 기능이 활성화 되어있다고 한다. 그래서 이 기능을 `{% autoescape off %}` 해주면 정상적으로 출력된다!
+알아보니 Django에서는 기본적으로 `esacape` 기능이 활성화 되어있다고 한다. 그래서 이 기능을 `{% raw %} {% autoescape off %} {% endraw %}` 해주면 정상적으로 출력된다!
 
 ```html
 <!DOCTYPE html>
@@ -63,7 +61,7 @@ def myeda(request):
   </head>
   <body>
     <p>Hello World</p>
-    {% autoescape off %} {{ head }} {% endautoescape %}
+    {% raw %} {% autoescape off %} {{ head }} {% endautoescape %} {% endraw %}
   </body>
 </html>
 ```
