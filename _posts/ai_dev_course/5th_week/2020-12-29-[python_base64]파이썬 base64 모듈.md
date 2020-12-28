@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[python_base64]파이썬 base64 모듈"
+title: "[python_base64]파이썬_base64 모듈 사용법"
 tags: [ai, python, base64, encoding]
 use_math: true
 comments: true
