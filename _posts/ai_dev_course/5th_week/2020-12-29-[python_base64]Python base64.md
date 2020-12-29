@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[python_base64]How to use base64 Module"
+title: "[python_base64]How to use base64"
 tags: [python, base64, encoding]
 use_math: true
 comments: true
