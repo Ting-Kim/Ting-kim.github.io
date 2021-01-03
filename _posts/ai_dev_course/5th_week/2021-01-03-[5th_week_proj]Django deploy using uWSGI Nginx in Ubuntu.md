@@ -19,7 +19,7 @@ comments: true
 
 `2020/12/31 18:15:12 [error] 5214#5214: *1 upstream prematurely closed connection while reading response header from upstream, client: 221.151.46.236, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://unix:/home/ubuntu/django-eda/myeda/uwsgi.sock:", host: "52.78.60.138", referrer: "[http://52.78.60.138/](http://52.78.60.138/)" "error.log" [readonly] 42L, 11592C`
 
-![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20210103_2.PNG?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20210103_2.PNG?raw=true)
+![https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20210103_2.png?raw=true](https://github.com/Ting-Kim/Ting-kim.github.io/blob/main/images/20210103_2.png?raw=true)
 
 이건 어떻게 해결했는지 기억도 안 나네.. 😱
 
