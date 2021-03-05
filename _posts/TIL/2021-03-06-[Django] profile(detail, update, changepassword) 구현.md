@@ -6,6 +6,8 @@ use_math: true
 comments: true
 ---
 
+{% raw %}
+
 ### user profile page 구현
 
 django.views.generic.DetailView
@@ -49,3 +51,5 @@ django.core.exceptions.ImproperlyConfigured: The included URLconf 'config.urls' 
 알아보니 reverse 메서드를 import 하는 시점에 reverse() 가 호출되어 버리기 때문이라고 한다.(urls.py가 로드되기 전에)
 
 reverse_lazy() 의 경우에는 직접 실행 될 때 불러오기 때문에 정상적으로 실행이 됨. (Django 공식 문서에서도 CBV(제네릭 뷰) 사용 시 reverse_lazy() 를 사용해야 한다고 명시되어 있다고 한다.)
+
+{% endraw %}
