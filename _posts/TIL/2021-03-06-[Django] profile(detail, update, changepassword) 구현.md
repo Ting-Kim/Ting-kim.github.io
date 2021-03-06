@@ -29,7 +29,7 @@ context_object_name의 default는 'object'인데, template 에서 해당 객체�
 사용한 속성 - `model`, `template_name`, `fields`
 
 - `fields` 중 "fav_book_cat", "fav_movie_cat" 는 `categories.Category`와 외래키로 관계된 컬럼인데, profile을 update할 때 꼭 설정하지 않으면 수정이 불가했다. 그래서 models.py에서 `blank=True`를 줘서 일단 해결함.
-- [urls.py](http://urls.py) 에서 profile 페이지에서는 url에 <int:pk>를 포함하였는데, update 시킬 땐 url에서 제외하니까, UpdateView가 default로 url에서 pk를 찾기 때문에 에러가 발생했다. 그래서 get_object() 메서드를 선언하여 self.request.user 를 반환하게 함.
+- `urls.py` 에서 profile 페이지에서는 url에 &lt;int:pk&gt;를 포함하였는데, update 시킬 땐 url에서 제외하니까, UpdateView가 default로 url에서 pk를 찾기 때문에 에러가 발생했다. 그래서 get_object() 메서드를 선언하여 self.request.user 를 반환하게 함.
 
 <br>
 
