@@ -103,8 +103,13 @@ project(':module-board') {
 
 **Reference**
 
-- [스프링 부트 어드민 사용해보기](https://andole98.github.io/spring/spring-boot-admin/#)
-- [Spring Boot | 멀티 모듈 프로젝트 (Multi Module)](https://gaemi606.tistory.com/entry/Spring-Boot-%EB%A9%80%ED%8B%B0-%EB%AA%A8%EB%93%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Multi-Module)
-- [스프링 부트로 멀티모듈 셋팅하기](https://taetaetae.github.io/2020/01/19/spring-boot-maven-multi-module/)
-- [Spring Boot - Intellij Gradle Multi module](https://daddyprogrammer.org/post/13156/spring-boot-change-multi-module/)
-- [멀티모듈 설계 이야기 with Spring, Gradle](https://woowabros.github.io/study/2019/07/01/multi-module.html)
+- 스프링 부트 어드민 사용해보기
+  - https://andole98.github.io/spring/spring-boot-admin/#
+- Spring Boot | 멀티 모듈 프로젝트 (Multi Module)
+  - https://gaemi606.tistory.com/entry/Spring-Boot-%EB%A9%80%ED%8B%B0-%EB%AA%A8%EB%93%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Multi-Module
+- 스프링 부트로 멀티모듈 셋팅하기
+  - https://taetaetae.github.io/2020/01/19/spring-boot-maven-multi-module/
+- Spring Boot - Intellij Gradle Multi module
+  - https://daddyprogrammer.org/post/13156/spring-boot-change-multi-module/
+- 멀티모듈 설계 이야기 with Spring, Gradle
+  - https://woowabros.github.io/study/2019/07/01/multi-module.html
